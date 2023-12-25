@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #36384D;
+}
+.card__container{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    padding: 219px 256px 220px 256px;
+    justify-content: center;
+    align-items: center;
+    background: var(--Pale-Navy, #36384D);
+}
+.card{
+    display: flex;
+    border-radius: 36px;
+    background: #FFF;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+    width: 928px;
+    height: 641px;
+    flex-shrink: 0;
+}
+.card-contents{
+    width: 376px;
+    height: 446px;
+    flex-shrink: 0;
+    margin: 97px 64px 98px 64px;
+}
+.card-texts{
+    width: 376px;
+    flex-shrink: 0;
+}
+.card-texts h3{
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 100%; /* 56px */
+}
+.card-texts p{
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-bottom: 24px;
+}
+.card__texts-menu{
+    width: 376px;
+    height: 92px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+}
+.card__texts-menu li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+form{
+    width: 376px;
+height: 82px;
+flex-shrink: 0;
+}
+form label{
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body Small */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 18px */
+}
+form  input{
+    width: 376px;
+    height: 56px;
+    flex-shrink: 0;
+}
+form  input::placeholder{
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    opacity: 0.5;
+    padding-top: 16px;
+    cursor: pointer;
+    padding-bottom: 16px;
+    padding-left: 24px;
+}
+button{
+    border-radius: 8px;
+    background: var(--Dark-Navy, #242742);
+    width: 376px;
+    height: 56px;
+    flex-shrink: 0;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body (Bold) */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    padding: 18px 71px 14px;
+    border: none;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: #FFF;
+    color: #111;
+    border:1px solid #242742;
+    cursor: pointer;
+}
+.card__img{
+    width: 400px;
+    height: 593px;
+    flex-shrink: 0;
+    margin-top: 24px;
+}   

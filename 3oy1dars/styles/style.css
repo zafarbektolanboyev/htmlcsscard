@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__container{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.header__container .logo{
+    width: 185px;
+    height: 49.936px;
+    flex-shrink: 0;
+}
+.header__container .navbar .menu{
+    gap: 32px;
+    display: flex;
+}
+.header__container .navbar .menu li{
+    list-style: none;
+    color: #222;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.header__container .navbar .menu li a{
+    text-decoration: none;
+    color: #222;
+}
+.header__container button{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.hero-container{
+    width: 1440px;  
+    flex-shrink: 0;
+    background: #0EB4C1;
+    display: flex;
+    margin-top: 24px;
+}
+.hero__container{
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 177px;
+}
+.hero__container .deck{
+    width: 500px;
+    /* height: 293px; */
+    flex-shrink: 0;
+    margin-top: 120px;
+}
+.hero__container .deck h3{
+    color: #FFF;
+
+    /* Big heading */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+    width: 500px;
+}
+.hero__container .deck p{
+    color: #FFF;
+    margin-bottom: 36px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    margin-top: 16px;
+}
+.hero__container .deck button{
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+    color: #FFF;
+    font-family: Open Sans Condensed;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.hero__container .img{
+    width: 423px;
+    height: 504px;
+    flex-shrink: 0;
+    margin-top: 29px;
+}
+
+.services__container{
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 120px;
+}
+.services__container h3{
+    color: #000;
+
+    /* Big heading */
+    font-family: Open Sans Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+    margin-left: 450px;
+}
+.services__container .blocks{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    margin-top:56px;
+}
+.services__container .blocks .card1{
+    display: flex;
+    gap: 64px;
+}
+.services__container .info h4{
+    color: #222;
+
+    /* Smaller heading */
+    font-family: Open Sans Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+    padding-top: 10px;
+}
+.services__container .info p{
+    color: #444;
+
+    /* Body text */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    width: 600px;
+}
+.services__container .blocks .card1 .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.services__container .blocks .card1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.30);
+}
+.services button{
+    margin-left: 600px;
+    margin-top: 60px;
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+    color: #FFF;
+    font-family: Open Sans Condensed;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.section__container{
+    background-color: #0EB4C1;
+    margin-top: 120px;
+}
+.section__container h3{
+    margin-left: 350px;
+    padding-top: 64px;
+    color: #FFF;
+
+    /* Big heading */
+    font-family: Open Sans Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+}
+.section__container .calling{
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    margin-left: 330px;
+    margin-top: 40px;
+    width: 194px;
+    margin-bottom: 64px;
+}
+.section__container .telegram{
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 214px;
+    margin-bottom: 64px;
+}
+.footer__container{
+    background: #222;
+    display: flex;
+    max-width: 1500px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__container .deck{
+    display: flex; 
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__container .deck .footer__logo{
+    width: 185px;
+    height: 49.936px;
+    flex-shrink: 0;
+}
+.footer__container .deck .footer_menu{
+    display: flex;
+    gap: 32px;
+}
+.deck .footer_menu li{
+    list-style: none;
+}
+.deck .footer_menu li a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 16px 170px;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo img{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 227px;
+}
+.header__menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.header__menu li{
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.header__menu li a{
+    color: #000;
+    text-decoration: none;
+}
+.header__menu button{
+    border-radius: 4px;
+    background: #FF7500;
+    padding: 12px 24px;
+    border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+.header__menu button:hover{
+    border:1px solid #FF7500;
+    background-color: #FFF;
+    color: #FF7500;
+}
+.hero__container{
+    background-color: #252420;
+    display: flex;
+    margin-top: 27px;
+    gap: 120px;
+}
+.hero__content{
+    width: 387px;
+    flex-shrink: 0;
+    margin-top: 123px;
+}
+.hero__content h3{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+    letter-spacing: 0.5px;
+}
+.hero__content p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.5px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.hero__content button{
+    border-radius: 4px;
+    background: #FF7500;
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+.hero__content button:hover{
+    background-color: #252420;
+    border:1px solid#FF7500;
+}
+.hero__img img{
+    width: 510px;
+    height: 510px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    
+}
